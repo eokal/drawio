@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T21:38:08.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="4bBHBw87ciiQalY6EZOI" version="16.6.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-02-24T21:38:23.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="oLqPJGHI7XL4mq4FJ6ew" version="16.6.1" type="github" pages="4">
   <diagram id="njqyg00H0sySTLGf2w5V" name="Version1">
     <mxGraphModel dx="1221" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -382,7 +382,7 @@
           <mxGeometry x="244" y="276" width="46" height="46" as="geometry" />
         </mxCell>
         <mxCell id="rstYILyV-zjfqt_tyDiP-4" value="AWS DevOps Tools" style="fillColor=none;strokeColor=#6c8ebf;dashed=0;verticalAlign=top;fontStyle=0;strokeWidth=2;" vertex="1" parent="psbgmT3L9JUXF0VOHrNV-1">
-          <mxGeometry x="180" y="240" width="210" height="230" as="geometry" />
+          <mxGeometry x="180" y="240" width="360" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
