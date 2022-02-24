@@ -1,0 +1,34 @@
+{
+    "sixUnifiedEventObject": "1.2",
+    "eventTimestamp": "2022-02-23T12:00:46.019Z",
+    "header": {
+        "eventCategory": "APP",
+        "eventType": "0",
+        "eventMessage": "Application Logging",
+        "severityLevel": "ERROR"
+    },
+    "product": {
+        "productName": "SMM",
+        "applicationId": "A0440",
+        "componentId": "A0440.006",
+        "productVersion": "1.3.0.27",
+        "productVendor": "SIX"
+    },
+    "origin": {
+        "environment": "smm-qa-bec-qa",
+        "hostname": "smm-backend-32-hdnl7",
+        "processId": "1",
+        "threadId": "error.bic.member.jms-1"
+    },
+    "trace": {
+        "traceId": "",
+        "spanId": "",
+        "parentSpanId": ""
+    },
+    "isBusinessException": "false",
+    "errorType": "INVALID_MESSAGE",
+    "errorCode": "T0001",
+    "messageCategory": "MEMBER",
+    "messageStoreId": "1bd5b9f6-9aec-425f-80fd-27ec6f8a0c74",
+    "eventPayload": "Invalid Message | errorCode=T0001, errorType=INVALID_MESSAGE, messageCategory=MEMBER, isBusinessException=false, sourceQueue=NFF_MEMBER01, messageStoreId=1bd5b9f6-9aec-425f-80fd-27ec6f8a0c74, jmsMessageId=ID:414d51206269637161202020202020206992146205eb2f25, tenantId=D801SE100734, bicErrorDescription=Invalid Message, isoMessageHeaderData={1:F01A73ACH1187670130000627}{2:I506D801SE100734N}{3:{108:R022022300000046}{119:SCRP}}{4:"
+}
