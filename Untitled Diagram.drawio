@@ -1,165 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T23:10:34.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="d1NPhZOTt8X8C_js0nZH" version="16.6.1" type="github" pages="4">
-  <diagram id="njqyg00H0sySTLGf2w5V" name="Version1">
-    <mxGraphModel dx="1221" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="mgniPYS_texaR5MeUq_7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mgniPYS_texaR5MeUq_7-1" target="mgniPYS_texaR5MeUq_7-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-13" value="X.509 IoT&lt;br&gt;certificate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mgniPYS_texaR5MeUq_7-5" vertex="1" connectable="0">
-          <mxGeometry x="-0.27" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-1" value="IoT Devices" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.generic;fillColor=#5294CF;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="30" y="180" width="60" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mgniPYS_texaR5MeUq_7-3" target="mgniPYS_texaR5MeUq_7-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="220" y="300" />
-              <mxPoint x="220" y="220" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-3" value="IoT MQTT protocol" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.mqtt_protocol;" parent="1" vertex="1">
-          <mxGeometry x="160" y="280" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-4" value="AWS Cloud" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="120" width="560" height="600" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="mgniPYS_texaR5MeUq_7-4" source="mgniPYS_texaR5MeUq_7-2" target="mgniPYS_texaR5MeUq_7-10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-12" value="consume" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mgniPYS_texaR5MeUq_7-11" vertex="1" connectable="0">
-          <mxGeometry x="0.2272" relative="1" as="geometry">
-            <mxPoint x="-9" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-2" value="AWS IoT Core" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.iot_core;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
-          <mxGeometry x="50" y="60" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-8" value="IoT MQTT &lt;br&gt;inbound topic" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.topic_2;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
-          <mxGeometry x="50" y="160" width="20.38" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-9" value="IoT &lt;br&gt;certificates" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.certificate_manager;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
-          <mxGeometry x="120.00000000000001" y="160" width="30.26" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="mgniPYS_texaR5MeUq_7-4" source="mgniPYS_texaR5MeUq_7-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="85" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-10" value="AWS IoT &lt;br&gt;rules engine" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rule;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
-          <mxGeometry x="190" y="59.13" width="30" height="50.87" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="mgniPYS_texaR5MeUq_7-4" source="mgniPYS_texaR5MeUq_7-15" target="mgniPYS_texaR5MeUq_7-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-15" value="DynamoDB" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
-          <mxGeometry x="350" y="50" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-17" value="AWS IoT Core" style="fillColor=none;strokeColor=#82b366;dashed=0;verticalAlign=top;fontStyle=0;strokeWidth=3;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
-          <mxGeometry x="20.26" y="30" width="299.74" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-19" value="Lambda: query data" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D45B07;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
-          <mxGeometry x="447.26" y="240" width="48" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="mgniPYS_texaR5MeUq_7-4" source="mgniPYS_texaR5MeUq_7-21" target="mgniPYS_texaR5MeUq_7-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-21" value="API GW" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
-          <mxGeometry x="441.26" y="458" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="mgniPYS_texaR5MeUq_7-4" source="mgniPYS_texaR5MeUq_7-22" target="mgniPYS_texaR5MeUq_7-21" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-22" value="AWS Cognito&amp;nbsp;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cognito;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
-          <mxGeometry x="330.26" y="463.5" width="49" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-26" value="DevOps&lt;br&gt;CodeCommit" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codecommit;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
-          <mxGeometry x="120.39" y="470" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-31" value="Amplify" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.amplify;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
-          <mxGeometry x="230.26" y="410" width="48" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-32" value="DevOps&lt;br&gt;CodeBuild" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codebuild;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
-          <mxGeometry x="45.449999999999996" y="470" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-33" value="DevOps&lt;br&gt;Code Artefact" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codeartifact;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
-          <mxGeometry x="84.26" y="376" width="46" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-28" value="AWS DevOps Tools" style="fillColor=none;strokeColor=#6c8ebf;dashed=0;verticalAlign=top;fontStyle=0;strokeWidth=2;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
-          <mxGeometry x="20.259999999999998" y="340" width="210" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" parent="mgniPYS_texaR5MeUq_7-4" source="mgniPYS_texaR5MeUq_7-43" target="mgniPYS_texaR5MeUq_7-21" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="380" y="264" />
-              <mxPoint x="380" y="390" />
-              <mxPoint x="450" y="390" />
-              <mxPoint x="450" y="458" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-43" value="Lambda: &lt;br&gt;Device management" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D45B07;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
-          <mxGeometry x="330.26" y="240" width="48" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-45" value="IoT &lt;br&gt;Device Management" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.iot_device_management;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
-          <mxGeometry x="228.26" y="200" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-23" value="Rest API (SPA) WebApp" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mobile;" parent="1" vertex="1">
-          <mxGeometry x="681.26" y="800" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="mgniPYS_texaR5MeUq_7-21" target="mgniPYS_texaR5MeUq_7-23" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-42" value="Rest SPA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mgniPYS_texaR5MeUq_7-25" vertex="1" connectable="0">
-          <mxGeometry x="0.2963" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-36" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" parent="1" vertex="1">
-          <mxGeometry x="140" y="945" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-38" value="REST API (M2M) - 3rd Party" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mobile;" parent="1" vertex="1">
-          <mxGeometry x="510" y="800" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-40" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;elbow=vertical;startArrow=block;startFill=1;strokeColor=#545B64;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mgniPYS_texaR5MeUq_7-38" target="mgniPYS_texaR5MeUq_7-21" edge="1">
-          <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="230" y="790" as="sourcePoint" />
-            <mxPoint x="330" y="790" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="540" y="790" />
-              <mxPoint x="640" y="790" />
-              <mxPoint x="640" y="638" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mgniPYS_texaR5MeUq_7-41" value="Rest API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mgniPYS_texaR5MeUq_7-40" vertex="1" connectable="0">
-          <mxGeometry x="-0.24" y="-5" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="c96CsJlWJ6aJIEWO6hLR-1" value="Users (Frontend)    " style="fillColor=none;strokeColor=default;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#232F3D;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="902.5" width="270" height="107.5" as="geometry" />
-        </mxCell>
-        <mxCell id="c96CsJlWJ6aJIEWO6hLR-2" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
-          <mxGeometry x="180" y="945" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="c96CsJlWJ6aJIEWO6hLR-3" value="REST API (M2M) - 3rd Party" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mobile;" vertex="1" parent="1">
-          <mxGeometry x="250" y="760" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="c96CsJlWJ6aJIEWO6hLR-4" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="945" width="50" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="c96CsJlWJ6aJIEWO6hLR-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#D2D3D3;gradientColor=none;strokeColor=default;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="936" width="30" height="49" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="app.diagrams.net" modified="2022-02-24T23:11:29.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="7FgNHlBqQPxWrEubCbVw" version="16.6.1" type="github" pages="4">
   <diagram name="V2" id="9IivM1FznUMCc70WSUXh">
     <mxGraphModel dx="865" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -343,8 +182,8 @@
         <mxCell id="qofne-1KxJWETZcjIZL7-14" value="Access log indexing" style="fillColor=none;strokeColor=#3061FF;dashed=1;verticalAlign=top;fontStyle=1;fontColor=#232F3D;strokeWidth=1;" vertex="1" parent="UeTEtlBNIT--JhcKIhv4-7">
           <mxGeometry x="359.38" y="700" width="213.75" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Tb72UdIf_u10yClhS11O-0" value="AWS DevOps Services" style="fillColor=none;strokeColor=#FFD966;dashed=1;verticalAlign=top;fontStyle=1;fontColor=#232F3D;strokeWidth=3;" vertex="1" parent="UeTEtlBNIT--JhcKIhv4-7">
-          <mxGeometry x="10" y="880" width="290" height="140" as="geometry" />
+        <mxCell id="Tb72UdIf_u10yClhS11O-0" value="AWS DevOps Services" style="fillColor=none;strokeColor=#FFD966;dashed=1;verticalAlign=top;fontStyle=1;fontColor=#232F3D;strokeWidth=2;" vertex="1" parent="UeTEtlBNIT--JhcKIhv4-7">
+          <mxGeometry x="10" y="880" width="300" height="140" as="geometry" />
         </mxCell>
         <mxCell id="qofne-1KxJWETZcjIZL7-5" value="API access log stream" style="fillColor=none;strokeColor=#333AFF;dashed=1;verticalAlign=top;fontStyle=1;fontColor=#232F3D;strokeWidth=1;" vertex="1" parent="UeTEtlBNIT--JhcKIhv4-7">
           <mxGeometry x="120" y="590" width="226.25" height="270" as="geometry" />
@@ -378,6 +217,11 @@
             <mxPoint x="210" y="652.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="9GzaJWsA1ho2FoXuAUGZ-0" value="REST APIs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g5C93ggt6cxOVQpY657y-1">
+          <mxGeometry x="0.415" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Tb72UdIf_u10yClhS11O-1" value="Sensor Device" style="fillColor=none;strokeColor=#C4C4C4;dashed=1;verticalAlign=top;fontStyle=1;fontColor=#232F3D;strokeWidth=2;" vertex="1" parent="UeTEtlBNIT--JhcKIhv4-1">
           <mxGeometry x="55.38" y="40" width="164.62" height="270" as="geometry" />
         </mxCell>
@@ -403,6 +247,167 @@
         </mxCell>
         <mxCell id="rstYILyV-zjfqt_tyDiP-4" value="AWS DevOps Tools" style="fillColor=none;strokeColor=#6c8ebf;dashed=0;verticalAlign=top;fontStyle=0;strokeWidth=2;" vertex="1" parent="psbgmT3L9JUXF0VOHrNV-1">
           <mxGeometry x="180" y="240" width="360" height="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="njqyg00H0sySTLGf2w5V" name="V1 - Old">
+    <mxGraphModel dx="1221" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mgniPYS_texaR5MeUq_7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mgniPYS_texaR5MeUq_7-1" target="mgniPYS_texaR5MeUq_7-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-13" value="X.509 IoT&lt;br&gt;certificate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mgniPYS_texaR5MeUq_7-5" vertex="1" connectable="0">
+          <mxGeometry x="-0.27" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-1" value="IoT Devices" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.generic;fillColor=#5294CF;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="30" y="180" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mgniPYS_texaR5MeUq_7-3" target="mgniPYS_texaR5MeUq_7-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="300" />
+              <mxPoint x="220" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-3" value="IoT MQTT protocol" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.mqtt_protocol;" parent="1" vertex="1">
+          <mxGeometry x="160" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-4" value="AWS Cloud" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="120" width="560" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="mgniPYS_texaR5MeUq_7-4" source="mgniPYS_texaR5MeUq_7-2" target="mgniPYS_texaR5MeUq_7-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-12" value="consume" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mgniPYS_texaR5MeUq_7-11" vertex="1" connectable="0">
+          <mxGeometry x="0.2272" relative="1" as="geometry">
+            <mxPoint x="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-2" value="AWS IoT Core" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.iot_core;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
+          <mxGeometry x="50" y="60" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-8" value="IoT MQTT &lt;br&gt;inbound topic" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.topic_2;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
+          <mxGeometry x="50" y="160" width="20.38" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-9" value="IoT &lt;br&gt;certificates" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.certificate_manager;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
+          <mxGeometry x="120.00000000000001" y="160" width="30.26" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="mgniPYS_texaR5MeUq_7-4" source="mgniPYS_texaR5MeUq_7-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-10" value="AWS IoT &lt;br&gt;rules engine" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rule;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
+          <mxGeometry x="190" y="59.13" width="30" height="50.87" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="mgniPYS_texaR5MeUq_7-4" source="mgniPYS_texaR5MeUq_7-15" target="mgniPYS_texaR5MeUq_7-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-15" value="DynamoDB" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
+          <mxGeometry x="350" y="50" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-17" value="AWS IoT Core" style="fillColor=none;strokeColor=#82b366;dashed=0;verticalAlign=top;fontStyle=0;strokeWidth=3;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
+          <mxGeometry x="20.26" y="30" width="299.74" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-19" value="Lambda: query data" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D45B07;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
+          <mxGeometry x="447.26" y="240" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="mgniPYS_texaR5MeUq_7-4" source="mgniPYS_texaR5MeUq_7-21" target="mgniPYS_texaR5MeUq_7-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-21" value="API GW" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
+          <mxGeometry x="441.26" y="458" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="mgniPYS_texaR5MeUq_7-4" source="mgniPYS_texaR5MeUq_7-22" target="mgniPYS_texaR5MeUq_7-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-22" value="AWS Cognito&amp;nbsp;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cognito;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
+          <mxGeometry x="330.26" y="463.5" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-26" value="DevOps&lt;br&gt;CodeCommit" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codecommit;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
+          <mxGeometry x="120.39" y="470" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-31" value="Amplify" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.amplify;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
+          <mxGeometry x="230.26" y="410" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-32" value="DevOps&lt;br&gt;CodeBuild" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codebuild;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
+          <mxGeometry x="45.449999999999996" y="470" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-33" value="DevOps&lt;br&gt;Code Artefact" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codeartifact;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
+          <mxGeometry x="84.26" y="376" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-28" value="AWS DevOps Tools" style="fillColor=none;strokeColor=#6c8ebf;dashed=0;verticalAlign=top;fontStyle=0;strokeWidth=2;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
+          <mxGeometry x="20.259999999999998" y="340" width="210" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" parent="mgniPYS_texaR5MeUq_7-4" source="mgniPYS_texaR5MeUq_7-43" target="mgniPYS_texaR5MeUq_7-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="264" />
+              <mxPoint x="380" y="390" />
+              <mxPoint x="450" y="390" />
+              <mxPoint x="450" y="458" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-43" value="Lambda: &lt;br&gt;Device management" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D45B07;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
+          <mxGeometry x="330.26" y="240" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-45" value="IoT &lt;br&gt;Device Management" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.iot_device_management;" parent="mgniPYS_texaR5MeUq_7-4" vertex="1">
+          <mxGeometry x="228.26" y="200" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-23" value="Rest API (SPA) WebApp" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mobile;" parent="1" vertex="1">
+          <mxGeometry x="681.26" y="800" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="mgniPYS_texaR5MeUq_7-21" target="mgniPYS_texaR5MeUq_7-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-42" value="Rest SPA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mgniPYS_texaR5MeUq_7-25" vertex="1" connectable="0">
+          <mxGeometry x="0.2963" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-36" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" parent="1" vertex="1">
+          <mxGeometry x="140" y="945" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-38" value="REST API (M2M) - 3rd Party" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mobile;" parent="1" vertex="1">
+          <mxGeometry x="510" y="800" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-40" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;elbow=vertical;startArrow=block;startFill=1;strokeColor=#545B64;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mgniPYS_texaR5MeUq_7-38" target="mgniPYS_texaR5MeUq_7-21" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="230" y="790" as="sourcePoint" />
+            <mxPoint x="330" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="790" />
+              <mxPoint x="640" y="790" />
+              <mxPoint x="640" y="638" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mgniPYS_texaR5MeUq_7-41" value="Rest API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mgniPYS_texaR5MeUq_7-40" vertex="1" connectable="0">
+          <mxGeometry x="-0.24" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c96CsJlWJ6aJIEWO6hLR-1" value="Users (Frontend)    " style="fillColor=none;strokeColor=default;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#232F3D;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="902.5" width="270" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c96CsJlWJ6aJIEWO6hLR-2" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
+          <mxGeometry x="180" y="945" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c96CsJlWJ6aJIEWO6hLR-3" value="REST API (M2M) - 3rd Party" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mobile;" vertex="1" parent="1">
+          <mxGeometry x="250" y="760" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c96CsJlWJ6aJIEWO6hLR-4" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="945" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="c96CsJlWJ6aJIEWO6hLR-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#D2D3D3;gradientColor=none;strokeColor=default;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="936" width="30" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
