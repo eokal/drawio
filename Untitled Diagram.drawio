@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T06:47:52.880Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="rDyOHObViePeP5g_Wjyw" version="16.6.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-02-25T07:01:47.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="b3meO4o-3yquGsgyja5e" version="16.6.3" type="github" pages="4">
   <diagram name="V2" id="9IivM1FznUMCc70WSUXh">
-    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="569" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="UeTEtlBNIT--JhcKIhv4-0" />
         <mxCell id="UeTEtlBNIT--JhcKIhv4-1" parent="UeTEtlBNIT--JhcKIhv4-0" />
@@ -37,11 +37,6 @@
         <mxCell id="UeTEtlBNIT--JhcKIhv4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="UeTEtlBNIT--JhcKIhv4-7" source="UeTEtlBNIT--JhcKIhv4-10" target="UeTEtlBNIT--JhcKIhv4-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UeTEtlBNIT--JhcKIhv4-9" value="consume" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="UeTEtlBNIT--JhcKIhv4-8" vertex="1" connectable="0">
-          <mxGeometry x="0.2272" relative="1" as="geometry">
-            <mxPoint x="-9" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="DfwNH6z72cDKJVTV1-j9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="UeTEtlBNIT--JhcKIhv4-7" target="DfwNH6z72cDKJVTV1-j9-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="170" as="sourcePoint" />
@@ -52,9 +47,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UeTEtlBNIT--JhcKIhv4-10" value="AWS IoT Core" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.iot_core;" parent="UeTEtlBNIT--JhcKIhv4-7" vertex="1">
-          <mxGeometry x="67.71" y="78.15" width="54.57" height="54.57" as="geometry" />
+          <mxGeometry x="67.71" y="75.43" width="54.57" height="54.57" as="geometry" />
         </mxCell>
         <mxCell id="DfwNH6z72cDKJVTV1-j9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="UeTEtlBNIT--JhcKIhv4-7" source="UeTEtlBNIT--JhcKIhv4-14" target="UeTEtlBNIT--JhcKIhv4-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BUX-mUa2Zo3SA9KeMsJq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="UeTEtlBNIT--JhcKIhv4-7" source="UeTEtlBNIT--JhcKIhv4-14" target="UeTEtlBNIT--JhcKIhv4-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UeTEtlBNIT--JhcKIhv4-14" value="AWS IoT &lt;br&gt;rules engine" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rule;" parent="UeTEtlBNIT--JhcKIhv4-7" vertex="1">
@@ -67,7 +65,7 @@
           <mxGeometry x="370" y="72.72" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UeTEtlBNIT--JhcKIhv4-17" value="AWS IoT" style="fillColor=none;strokeColor=#82b366;dashed=1;verticalAlign=top;fontStyle=1;strokeWidth=2;" parent="UeTEtlBNIT--JhcKIhv4-7" vertex="1">
-          <mxGeometry x="30" y="48" width="280" height="402" as="geometry" />
+          <mxGeometry x="35" y="148" width="280" height="402" as="geometry" />
         </mxCell>
         <mxCell id="UeTEtlBNIT--JhcKIhv4-18" value="Lambda: &lt;br&gt;query data" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D45B07;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" parent="UeTEtlBNIT--JhcKIhv4-7" vertex="1">
           <mxGeometry x="460" y="217" width="48" height="48" as="geometry" />
