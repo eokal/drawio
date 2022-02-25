@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T07:17:19.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="7aRm-NZX_zIIFw_SCcJx" version="16.6.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-02-25T07:18:46.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="m8QRElY4z3oLjJEpuroV" version="16.6.3" type="github" pages="4">
   <diagram name="V2" id="9IivM1FznUMCc70WSUXh">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -121,9 +121,6 @@
         <mxCell id="UeTEtlBNIT--JhcKIhv4-30" value="IoT Device &lt;br&gt;Management" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.iot_device_management;" parent="UeTEtlBNIT--JhcKIhv4-7" vertex="1">
           <mxGeometry x="209.94" y="210" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UeTEtlBNIT--JhcKIhv4-34" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" parent="UeTEtlBNIT--JhcKIhv4-7" vertex="1">
-          <mxGeometry x="-149.62" y="512.5" width="40" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="DfwNH6z72cDKJVTV1-j9-2" value="Lambda: &lt;br&gt;JITR of device certs" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D45B07;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" parent="UeTEtlBNIT--JhcKIhv4-7" vertex="1">
           <mxGeometry x="70" y="215" width="50" height="50" as="geometry" />
         </mxCell>
@@ -204,14 +201,11 @@
         <mxCell id="UeTEtlBNIT--JhcKIhv4-42" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#D2D3D3;gradientColor=none;strokeColor=default;strokeWidth=1;" parent="UeTEtlBNIT--JhcKIhv4-1" vertex="1">
           <mxGeometry x="90.38" y="570" width="30" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="UeTEtlBNIT--JhcKIhv4-39" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" parent="UeTEtlBNIT--JhcKIhv4-1" vertex="1">
-          <mxGeometry x="90.38" y="672.5" width="40" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="UeTEtlBNIT--JhcKIhv4-41" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;dashed=1;" parent="UeTEtlBNIT--JhcKIhv4-1" vertex="1">
-          <mxGeometry x="85.38" y="735" width="50" height="45" as="geometry" />
+          <mxGeometry x="85.38" y="710" width="50" height="45" as="geometry" />
         </mxCell>
         <mxCell id="UeTEtlBNIT--JhcKIhv4-38" value="Digital Channels     " style="fillColor=none;strokeColor=#C4C4C4;dashed=1;verticalAlign=top;fontStyle=1;fontColor=#232F3D;strokeWidth=2;" parent="UeTEtlBNIT--JhcKIhv4-1" vertex="1">
-          <mxGeometry x="30" y="540" width="150" height="270" as="geometry" />
+          <mxGeometry x="30.000000000000004" y="540" width="150" height="270" as="geometry" />
         </mxCell>
         <mxCell id="g5C93ggt6cxOVQpY657y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=classic;endFill=1;entryX=1;entryY=0.419;entryDx=0;entryDy=0;entryPerimeter=0;" parent="UeTEtlBNIT--JhcKIhv4-1" source="UeTEtlBNIT--JhcKIhv4-20" target="UeTEtlBNIT--JhcKIhv4-38" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -228,6 +222,9 @@
         </mxCell>
         <mxCell id="BUX-mUa2Zo3SA9KeMsJq-0" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.locked;" vertex="1" parent="UeTEtlBNIT--JhcKIhv4-1">
           <mxGeometry x="71.35" y="140" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UeTEtlBNIT--JhcKIhv4-34" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" parent="UeTEtlBNIT--JhcKIhv4-1" vertex="1">
+          <mxGeometry x="90.38" y="645" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
